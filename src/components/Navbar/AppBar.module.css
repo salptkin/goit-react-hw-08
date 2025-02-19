@@ -1,0 +1,28 @@
+.appBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+.appBar>div {
+    display: flex;
+    align-items: center;
+}
+
+.appBar a {
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+}
+
+@media (max-width: 767px) {
+    .appBar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

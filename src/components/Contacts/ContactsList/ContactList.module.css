@@ -1,0 +1,33 @@
+.contactListContainer {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contactList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contactList li {
+    margin-bottom: 10px;
+}
+
+.emptyMessage {
+    text-align: center;
+    color: #666;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.contactListTitle {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+}
